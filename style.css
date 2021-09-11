@@ -1,0 +1,90 @@
+@font-face {
+  font-family:'collge';
+  src: url('./collge.ttf');
+}
+
+@font-face {
+  font-family: 'acrylic';
+  src: url('./acrylic.ttf');
+}
+
+img {
+  width: 30%;
+  height:auto;
+  display: block;
+  margin:5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'collge';
+  letter-spacing: 2px;
+}
+
+.lulu {
+  color:#00000;
+  font-family: 'acrylic';
+  font-size: 400%;
+  letter-spacing: 4px;
+}
+
+.description {
+  margin-left: 35%;
+  margin-right:35%;
+  font-family: arial;
+  padding:1px;
+  margin-bottom: 2%;
+}
+
+nav a {
+  display: block;
+  border: 2px;
+  border-style: solid;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 1%;
+  color: black;
+  text-decoration: None;
+  font-family: 'collge';
+  padding: 1px;
+}
+
+nav a:hover {
+  color:white;
+  background-color: black;
+}
+
+h2 {
+  font-family: 'collge';
+  letter-spacing:2px;
+}
+
+.profile{
+  width: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 50%;
+  }
+
+  .profile {
+    width: 30%;
+  }
+
+  .description {
+    margin-left:20%;
+    margin-right: 20%;
+  }
+
+  nav a {
+    margin-left:30%;
+    margin-right:30%
+  }
+}
